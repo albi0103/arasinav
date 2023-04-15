@@ -37,22 +37,71 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 
 
 # Giriş
-21. yüzyıla gelindiği halde çoğu ülkede halen kadın haklarının tam olarak sağlanamadığı görülmektedir. Bu husus özellikle iş ve ücret konularında göze çarpmaktadır. Örneğin, Amerika ve Rusya gibi gelişmiş ülkelerde aynı kurumda, aynı pozisyonda çalışan kadın ve erkek çalışanların eşit haklara sahip olmadıkları bilinmektedir. Gelişmiş ülkelerde bile böyle olaylar görülürken, gelişmemiş ülkelerde durumun daha da vahim olması aşikârdır. 
-Gelişmemiş ülkelerde özellikle bazı meslek gruplarına kadınların katılımı yasaklanmıştır. Bu husus özellikle hukuk alanında göze çarpmaktadır. Kadınların karar alma organlarından dışlanması, demokrasi ilkelerinin bir toplumda yerleşmesi olanaklarını sınırlandırmaktadır. Kadınların siyasi ve hukuki karar alma süreçlerine katılımı, kadınların güçlenmesinin ve toplumsal cinsiyet eşitliğinin bir ölçüsüdür. Dünyanın her yerinde kadınlar, avukatlar, hukuk danışmanları ve hukuk profesörleri olarak hukuk alanında etkileyici kazanımlar elde etmişlerdir. Bu, bir zamanlar erkeklerin egemen olduğu hukuk mesleğini en az iki şekilde değiştirmiştir: birincisi, cinsiyet bileşimi açısından ve ikincisi, kadın hareketi ve savunuculuğuyla uyumlu hukukçuların mevcudiyeti açısından. [@sonneveld2017women]
-Şimdi kadınlar, tarihsel olarak erkeklere ayrılan hâkimlik mesleğine girmektedir. Yine de birçok ülkede kadın yargıçlar aile mahkemelerinde ve alt hukuk mahkemelerinde kümelenmiş durumda ve bir tür "cam tavan" onların üst mahkemelere terfi etmelerini engellemektedir. Ancak bazı ülkelerde kadınların en yüksek mahkemelere atandıkları da görülmektedir.[@escobar2021breaking] Kadınların bu meslek gruplarındaki varlıkları, katılımları ve bakış açıları sisteme eşsiz katkılar sunmaktadır.[@shvedova2005obstacles] 
-Demokratik ve demokratik olmayan ülkelerde yargı kurumlarının öne çıkması, kadınların bu güçlü ve görünür karar alma organlarında yer almasını önemli hale getirmiştir. Yine de kadınlar, anayasa mahkemeleri ve yüksek mahkemeler de dâhil olmak üzere en yüksek yargı organlarına ancak son zamanlarda girebilmişlerdir. İlk kadının bir yüksek mahkemeye atanması, kimin sahada olabileceği ve olması gerektiğine dair geleneksel fikirleri kıran tarihi bir dönüm noktasıdır.[@sherry1986gender] 
-Yapılan araştırmalar, kadınların kamusal karar alma süreçlerine katılma sayılarını artırma ihtiyacını desteklemektedir. Gelişmiş ülkelerde kadın yargıçların varlığı yeni bir gelişmedir çünkü bazı ülkelerde (örneğin İsviçre) yargıçlar siyasi olarak seçilmektedir ve kadınlar yalnızca 1971'de federal düzeyde söz ve oy hakkı elde etmişlerdir.[@ludewig2013professional]  
-Kadınların önceki tarihlerde dışlandığı meslek gruplarında, kadınların varlıklarının görüldüğü tarihlere dikkat edildiği zaman ülkenin gelişmişlik düzeyi hakkında ipuçlarına ulaşılabilmektedir. Çünkü ancak gelişmiş ve demokratik ülkelerde kadın haklarında daha belirgin iyileşmeler görülmektedir.
+“Kadınları geride bırakan toplum, geride kalmaya mahkûmdur.” Mustafa Kemal Atatürk
+
+
+
+ 
+ XXI yüzyıla gelindiği halde çoğu ülkede halen kadın haklarının tam olarak sağlanamadığı görülmektedir. Yakın tarihe kadar kadınlar, birçok önemli meslek grubundan (mühendislik, hukuk, politika vb.) dışlanmış olup temizlik, çocuk bakıcılığı gibi hizmet sektöründe çalışmak zorunda bırakılmıştır. 
+ 
+ 
+ 
+ Sadece meslek grubu dışında bırakılmakla da kalmayıp aynı işi yapan erkek çalışanlara nazaran daha az hak sahibi oldukları göze çarpmaktadır. Örneğin, Amerika ve Rusya Federasyonu gibi gelişmiş, güçlü ülkelerde aynı kurumda, aynı pozisyonda çalışan kadın ve erkek çalışanların eşit haklara sahip olmadığı durumlarla karşılaştığı bilinmektedir. Gelişmiş ülkelerde bile böyle olaylar görülürken, gelişmemiş ülkelerde durumun daha da vahim olması aşikârdır. 
+ 
+ 
+ 
+ Kadınların önceki tarihlerde dışlandığı meslek gruplarında, kadınların varlıklarının görüldüğü tarihlere dikkat edildiği zaman ülkenin gelişmişlik düzeyi hakkında ipuçlarına ulaşılabilmektedir. Çünkü ancak gelişmiş ve demokratik ülkelerde kadın haklarında daha belirgin iyileşmeler görülmektedir.
+ 
+ 
+ 
+ Günümüzde gelişmiş, demokratik ve güçlü ülkelere bakıldığında kadınların önde gelen meslek gruplarındaki oranı yadsınamaz seviyededir. Gelişmekte olan ve gelişmemiş ülkelerin kadınların çalışma hayatına dâhil edilmesindeki ilerlemeleri, ülkelerin gelişmişlik seviyesinde de pozitif artışı sağlamaktadır.[@ludewig2013professional]
 
 
 
 
 
 ## Çalışmanın Amacı
-Bu çalışmada dünya çapında gelişmiş ve gelişmemiş ülke mahkemelerindeki kadın hâkimlerin ilk ne zaman çalışmaya başladığı ve hâkimler arasındaki kadınların oranı incelenerek istatistiksel analiz yapılacaktır. Bu analizle yukarıda bahsedilen ipuçlarının elde edilebilirliği ve gelişmiş demokratik ülkelerin bu konuda öncü olup olmadığı değerlendirilecektir.
+
+
+
+Bu çalışmada, “ülkenin gelişmişlik düzeyi ve kadın hâkim sayısı doğru orantılı mı?” sorusunun cevabı gelişmemiş veya gelişmekte olan ülkelerdeki sayılarla kıyaslanarak aranacaktır.
+
+
+
+
+Yıllar ilerledikçe ülkelerdeki kadın hâkim sayısı incelenerek sürdürülebilirliği değerlendirilecektir.
+
+
+
+
+Dünya çapında gelişmiş ve gelişmemiş ülke mahkemelerindeki kadın hâkimlerin ilk ne zaman çalışmaya başladığı ve hâkimler arasındaki kadınların oranı incelenerek istatistiksel analiz yapılacaktır. 
+
+
+
+
 
 ## Literatür 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az dört** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+
+
+
+Gelişmemiş ülkelerde özellikle bazı meslek gruplarına kadınların katılımı yasaklanmıştır. Bu husus özellikle hukuk alanında göze çarpmaktadır. Kadınların karar alma organlarından dışlanması, demokrasi ilkelerinin bir toplumda yerleşmesi olanaklarını sınırlandırmaktadır. Kadınların siyasi ve hukuki karar alma süreçlerine katılımı, kadınların güçlenmesinin ve toplumsal cinsiyet eşitliğinin bir ölçüsüdür. Dünyanın her yerinde kadınlar, avukatlar, hukuk danışmanları ve hukuk profesörleri olarak hukuk alanında etkileyici kazanımlar elde etmişlerdir. Bu, bir zamanlar erkeklerin egemen olduğu hukuk mesleğini en az iki şekilde değiştirmiştir: birincisi, cinsiyet bileşimi açısından ve ikincisi, kadın hareketi ve savunuculuğuyla uyumlu hukukçuların mevcudiyeti açısından. [@sonneveld2017women]
+
+
+
+
+Şimdi kadınlar, tarihsel olarak erkeklere ayrılan hâkimlik mesleğine girmektedir. Yine de birçok ülkede kadın yargıçlar aile mahkemelerinde ve alt hukuk mahkemelerinde kümelenmiş durumda ve bir tür "cam tavan" onların üst mahkemelere terfi etmelerini engellemektedir. Ancak bazı ülkelerde kadınların en yüksek mahkemelere atandıkları da görülmektedir.[@escobar2021breaking] Kadınların bu meslek gruplarındaki varlıkları, katılımları ve bakış açıları sisteme eşsiz katkılar sunmaktadır.[@shvedova2005obstacles] 
+
+
+
+
+
+Demokratik ve demokratik olmayan ülkelerde yargı kurumlarının öne çıkması, kadınların bu güçlü ve görünür karar alma organlarında yer almasını önemli hale getirmiştir. Yine de kadınlar, anayasa mahkemeleri ve yüksek mahkemeler de dâhil olmak üzere en yüksek yargı organlarına ancak son zamanlarda girebilmişlerdir. İlk kadının bir yüksek mahkemeye atanması, kimin sahada olabileceği ve olması gerektiğine dair geleneksel fikirleri kıran tarihi bir dönüm noktasıdır.[@sherry1986gender] 
+
+
+
+
+
+Yapılan araştırmalar, kadınların kamusal karar alma süreçlerine katılma sayılarını artırma ihtiyacını desteklemektedir. Gelişmiş ülkelerde kadın yargıçların varlığı yeni bir gelişmedir çünkü bazı ülkelerde (örneğin İsviçre) yargıçlar siyasi olarak seçilmektedir ve kadınlar yalnızca 1971'de federal düzeyde söz ve oy hakkı elde etmişlerdir.[@ludewig2013professional]  
 
 
 
